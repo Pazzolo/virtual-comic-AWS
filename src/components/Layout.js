@@ -10,7 +10,7 @@ export default ({ children, title = 'Virtual Comics' }) => (
         </Head>
         <div className="app">
             <header>
-                <h1><Link href={{ pathname: '/' }}><a>gallery</a></Link></h1>
+                <h1><Link href={{ pathname: '/' }}><a>gallery </a></Link></h1>
                 <h2>Comics</h2>
             </header>
             { children }
